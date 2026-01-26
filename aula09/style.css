@@ -3,3 +3,9 @@ h1{
     font-size: 20pt;
     color: blue;
 }
+
+p{
+    font-family: Verdana;
+    font-size: 12pt;
+    color: green;
+}
