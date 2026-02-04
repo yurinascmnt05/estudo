@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Vídeos com HTML5</title>
 </head>
 <body>
     <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeo está hospedado no meu próprio sevidor</p>
-    <video controls width="500px">
+    <video controls width="500px" autoplay loop>
         <source src="midia/video.mp4" type="video/mp4">
         <source src="midia/Video.mkv" type="video/mp4">
         <source src="midia/Video.webm" type="video/webm">
         <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
     </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=P7E0KHSG3g_uuX7P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
